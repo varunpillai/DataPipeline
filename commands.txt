@@ -1,0 +1,23 @@
+- build a dockerimage from dockerfile
+docker build -t jupyter:0.1 .
+
+- docker run a docker image
+docker run -d -p 8889:8888 -vC:\Users\Owner\Desktop\Projects:/home/jovyan/work --name jupyter0.1 jupyter:0.1
+
+- get to bash in container
+docker exec -it jupyter0.1 bash
+
+- list all containers
+docker ps
+
+- stop a container
+docker stop jupyter0.1
+
+- remove container
+docker rm jupyter0.1
+
+- list all images
+docker images
+
+- remove the image
+docker rmi bbfb8aad625b
