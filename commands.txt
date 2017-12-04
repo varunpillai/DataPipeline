@@ -10,7 +10,7 @@ docker run -d -p 8890:8080 --network=datapipeline -vC:\Users\Owner\Desktop\Proje
 docker exec -it jupyter0.1 bash
 
 - list all containers
-docker ps
+docker ps -a
 
 - stop a container
 docker stop jupyter0.1
