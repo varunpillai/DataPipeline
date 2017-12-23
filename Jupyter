@@ -23,3 +23,5 @@ RUN pip install git+git://github.com/PythonicNinja/pydrill.git
 RUN pip install singer-python
 
 RUN pip install target-gsheet
+
+RUN pip install facebookads
